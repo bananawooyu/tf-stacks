@@ -34,6 +34,11 @@ required_providers {
     version = "~> 2.4"
   }
 
+  random = {
+    source = "hashicorp/random"
+    version = "~> 3.0"
+  }
+
 }
 
 provider "aws" "configurations" {
@@ -77,7 +82,6 @@ provider "helm" "oidc_configurations" {
     }
   }
 }
-
 
 provider "cloudinit" "this" {}
 provider "kubernetes" "this" {}
