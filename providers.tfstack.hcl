@@ -36,7 +36,7 @@ required_providers {
 
   random = {
     source = "hashicorp/random"
-    version = "~> 3.0"
+    version = "~> 3.6.2"
   }
 
 }
@@ -88,3 +88,4 @@ provider "kubernetes" "this" {}
 provider "time" "this" {}
 provider "tls" "this" {}
 provider "local" "this" {}
+provider "random" "main" {}
