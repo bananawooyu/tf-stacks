@@ -7,7 +7,7 @@ identity_token "k8s" {
 }
 
 locals {
-  role_arn = "<INSERT YOUR ARN HERE>"
+  role_arn = "arn:aws:iam::552166050235:role/jaehyeun_stack_role"
   tfc_kubernetes_audience = "k8s.workload.identity"
   tfc_hostname = "https://app.terraform.io"
   organization_name = "rum-org-korean-air"
